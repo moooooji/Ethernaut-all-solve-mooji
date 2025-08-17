@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import {Script, console} from "forge-std/Script.sol";
 import "../src/Denial.sol";
 
-contract DenialpScript is Script {
+contract DenialScript is Script {
 
     function setUp() public {
     }
