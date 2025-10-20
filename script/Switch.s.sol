@@ -13,7 +13,7 @@ contract SwitchScript is Script {
     function run() public {
         vm.startBroadcast();
 
-        // offset points data chunk; chunk inlucde data length
+        // offset points data chunk; chunk include data length
         bytes memory bytes_ = hex"30c13ade0000000000000000000000000000000000000000000000000000000000000044000000000000000000000000000000000000000000000000000000000000000020606e15000000000000000000000000000000000000000000000000000000000000000476227e1200000000000000000000000000000000000000000000000000000000";
 
         console.log("switch: ", target.switchOn());
